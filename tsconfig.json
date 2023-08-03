@@ -111,12 +111,14 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
-  "exclude": [
-    "node_modules", //node_modules is excluded by default
-    "basics.ts",
-    "functions.ts",
-    "objs-arrays-enums.ts",
-    "union-aliases.ts",
-    "unknown-never-types.ts"
-  ]
+  "include": ["src"]
+  // "exclude": [
+  //   "node_modules", //node_modules is excluded by default
+  //   "basics.ts",
+  //   "functions.ts",
+  //   "objs-arrays-enums.ts",
+  //   "union-aliases.ts",
+  //   "unknown-never-types.ts",
+  //   "classes.ts",
+  // ]
 }
